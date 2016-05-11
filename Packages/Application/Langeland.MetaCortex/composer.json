@@ -1,0 +1,18 @@
+{
+    "description": "Add description here",
+    "type": "neos-package",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "name": "langeland/metacortex",
+    "autoload": {
+        "psr-0": {
+            "Langeland\\MetaCortex": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Langeland.MetaCortex"
+        }
+    }
+}
